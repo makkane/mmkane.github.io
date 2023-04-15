@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+	      /* Add CSS styles for the header */
+      .header {
+        display: flex;
+        align-items: center;
+        background-color: #f1f1f1;
+        padding: 20px;
+      }
+
+      /* Style for the profile photo */
+      .profile-photo {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        margin-right: 20px;
+      }
+      /* Add CSS styles for the tab header */
+      .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f1f1f1;
+      }
+
+      /* Style the buttons inside the tab header */
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        transition: 0.3s;
+        font-size: 17px;
+      }
+
+      /* Change background color of buttons on hover */
+      .tab button:hover {
+        background-color: #ddd;
+      }
+
+      /* Create an active/current tablink class */
+      .tab button.active {
+        background-color: #ccc;
+      }
+
+      /* Style the tab content */
+      .tabcontent {
+		width: 60%;
+		margin: 0 auto;
+        display: none;
+        padding: 6px 12px;
+        border: 1px solid #ccc;
+        border-top: none;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="header">
+      <img src="mmk1.PNG" alt="Profile Photo" class="profile-photo">
+      <h2>Welcome to my page!</h2>
+      <div style="margin-left: auto;">
+        <p>Email: makarand@kth.se</p>
+        <p>Phone: +46 769692923</p>
+      </div>
+    </div>
+
+    <div class="tab">
+      <button class="tablinks" onclick="openTab(event, 'AboutMe')">About Me</button>
+      <button class="tablinks" onclick="openTab(event, 'Publications')">Publications</button>
+      <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+      <button class="tablinks" onclick="openTab(event, 'Teaching')">Teaching</button>
+      <button class="tablinks" onclick="openTab(event, 'NewsEvents')">News & Events</button>
+      <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+      <button class="tablinks" onclick="openTab(event, 'BeyondProfession')">Beyond Profession</button>
+    </div>
+
+    <div id="AboutMe" class="tabcontent">
+      <!-- Add content for the "About Me" tab here -->
+		नमस्ते!   Hi! Hej!
+			I am Makarand M Kane. I come from a small town - 'Chiplun' on the west coast of India. 
+			
+			I am an electrical engineer by training. For initial part of my career I worked on electrical machines - their design and diagnostics. For my Ph.D. I worked on a completely different topic of "Wire Electric Discharge Machining". Presently, I am working on Electromagnetic Compatibility (EMC) issues in Solar Photovoltaics (solar PV).
+		
+    </div>
+
+    <div id="Publications" class="tabcontent">
+      <!-- Add content for the "Publications" tab here -->
+	<ul><li><h4> Patents </h4></li></ul>
+		<ol>
+		<li><b>Makarand M. Kane</b>, Kamlesh Joshi, Nitin Tiwari, S. V. Kulkarni, Himanshu Bahirat, Suhas S. Joshi, “Customizable Miniature Wire Electric Discharge Machine”, Indian Patent, Appl. no. 202021032434, 29 July, 2020</li>
+		<li><b>Makarand M. Kane</b>, S. V. Kulkarni, Himanshu Bahirat, Suhas S. Joshi, “An Electrical Supply Scheme for Multi-wire EDM”, Indian Patent, Appl. No. 202021041051, 22 Sep, 2020 </li>
+		<li><b>Makarand M. Kane</b>, S. V. Kulkarni, Himanshu Bahirat, Suhas S. Joshi, “Electrical Supply Scheme with time interleaving for Multi-wire Electric Discharge Machine”, Indian Patent, Appl. No. 202021044094, 09 Oct, 2020</li>
+		</ol>
+	<ul><li><h4> Journals </h4></li></ul>
+		<ol>
+		<li><b>M. M. Kane</b>, A. Khadse, H. Chandwani, H. Bahirat and S. V. Kulkarni, "Modeling and Efficiency Improvement of a Pulse Generator for Wire Electric Discharge Machining," in <i>IEEE Transactions on Plasma Science</i>, in press doi: 10.1109/TPS.2020.2998908.</li>
+		<li><b>Makarand M. Kane</b>, Ajinkya Phanse, Himanshu Bahirat, S. V. Kulkarni, "Classification and Comparative Study of EDM Pulse Generators," in <i> IET Power Electronics</i>, vol. 13, no. 14, pp. 2943-2959, 4 11 2020 </li>
+		<li><b>M. M. Kane</b>, S. V. Kulkarni, H. J. Bahirat, S. S. Joshi, "Analysis of Electrical Forces in Multi-wire EDM for Semiconductors," in <i> Procedia CIRP</i>, in press </li>
+		<li><b>M. M. Kane</b>, Kamlesh Joshi, Nitin Tiwari, S. V. Kulkarni, Himanshu Bahirat, Suhas S. Joshi, "Experiments with Miniature Wire EDM for Silicon," in <i>Procedia CIRP</i>, in press </li>
+		<li><b>Makarand M. Kane</b> and S. V. Kulkarni, "MTL based Analysis to Distinguish High Frequency Behavior of Interleaved Windings in Power Transformers", <i>Power Delivery, IEEE transactions on</i>, vol.28, no.4, pp.2291-2299, Oct. 2013</li></ol>
+	<ul><li><h4> Conferences </h4></li></ul>
+	<ol start="6">
+		<li><b>M. Kane</b>, N. Taylor and D. Månsson, “Characterization of Parasitic Impedances of PV Panels from Common Mode Perspective,” <i> 2022 International Symposium on Electromagnetic Compatibility – EMC Europe</i>, 2022, pp. 560-565.
+		<li><b>M. Kane</b>, A. Khadse, H. Bahirat and S. V. Kulkarni, "Design and Control of Pulsed Voltage Supply for Electric Discharge Machining," <i>2018 IEEE International Conference on Power Electronics, Drives and Energy Systems (PEDES), Chennai, India, 2018</i>, pp. 1-6.
+		<li><b>M. M. Kane</b>, A. Jadhav, M. Kumar, S.V. Kulkarni, S.S. Joshi, "Machining Behaviour of Silicon in Wire EDM for PV Applications", <i>EU PVSEC, European PV Solar Energy Conference and Exhibition, Amsterdam, 25 - 29 September 2017</i>, pp 333 - 338.
+		<li><b>M. Kane</b>, "Design of copper rotor induction motor for mild-hybrid electric vehicle",<i> Transportation Electrification Conference (ITEC), 2015 IEEE International </i>, Chennai, 2015, pp. 1-6. doi:
+		10.1109/ITEC-India.2015.7386929</li>
+		<li><b>Makarand M Kane</b>, Swanand Kulkarni, Antony Shinto, Rohit Kharat and Naga C, "Design and
+		control of a light-weight drive-integrated BLDC Motor for 48 V Hybrid Vehicle Radiator Fan
+		Application" <i>SAE World Congress and Exhibition, April 2015</i>, SAE Technical Paper 2015-01-
+		1207, 2015, doi:10.4271/2015-01-1207</li>
+		<li>Antony Shinto, <b>Makarand M Kane</b>, R T Ugale and Naga Chaithanya, “Design of Auxiliary BLDC Motor for 48V EV/HEV Environment" <i>ANSYS Convergence 2014 Regional Conference, Pune,</i> May 2014</li>
+		<li><b>Makarand M Kane</b>, Kishore B, Naga C, S Kengar and Govindarajan S, "Design methodology for
+		Induction Motor for Hybrid Electric Vehicle using ANSYS Maxwell", <i>ANSYS Convergence 2013
+		Regional Conference, Pune, May 2013</i>, won <b>best paper</b> award</li>
+	</ol>
+    </div>
+
+    <div id="Projects" class="tabcontent">
+      <!-- Add content for the "Projects" tab here -->
+	   <h4> Electromagnetic Compatibility Aspects of Solar Photovoltaics</h4>
+	   Solar energy is clean, but we also need to make sure it is clean electromagnetically. Electromagnetic Compatibility (EMC) issues are expected to be present in solar PV because they come with power electronic converters which use switching frequency from 10 kHz to 500 kHz. Converter manufacturer need to pass certain standards, but some products may still cause interference and get banned from market. The EMC issues are mainly of the following types:
+	   <ol>
+	   <li>Conducted disturbances to grid: Harmonics (in V and I), voltage unbalance, leakage current </li>
+	   <li>Radiated disturbances: Solar panels installations can act as antennas and cause disturbance to radio frequency operations. </li>
+	   <li>Intra PV system disturbance: Components from solar PV system can affect each other. </li>
+	   <li>PV system as victim: Disturbances from the grid can affect the solar PV system. </li>
+		</ol>
+	   <h4>Wire Electric Discharge Machining: Extending its applicability for cutting semiconductors</h4>
+	   WEDM is an established machining technique which is based on spark-erosion caused by discharge between the tool (a wire) and the workpiece. It is already shown that, WEDM is an effective technique for slicing semiconductor ingots because: (a) it is a non-contact method (b) it can also save significant material (reduces material loss from 40% to 15%). However, WEDM is not <i>designed</i> for semiconductors. Therefore, we tried to extend its applicability for semiconductor-slicing.		
+	   <h4>Induction Motor for Hybrid Electric Vehicles</h4>
+	   Electric or hybrid vehicles are not new today. I was working on this project in 2012 when the products were yet to launch in market. Although magnet-based motors are good from torque density perspective, SRM are good because no windings on stator, induction motor wins the race in terms of ruggedness, cost, and maturity of technology combined. As copper has higher conductivity than aluminum, use of copper-cage in induction machine rotor gives high torque. Our work in this domain is published here. 
+	   <h4>High Frequency Model for Transformer Diagnostics</h4>
+	   I assessed transformer windings with the multiconductor transmission line approach to compute voltage distribution, if high frequency voltage impinges on the windings. Such voltage can lead to inter-turn insulation failure which is crucial and hence reduce life of power transformer. 
+    </div>
+
+    <div id="Teaching" class="tabcontent">
+      <!-- Add content for the "Teaching" tab here -->
+	<table style="border-collapse: collapse; width: 100%;">
+	<tr>
+    <th style="border: 1px solid black; padding: 10px;">Year</th>
+    <th style="border: 1px solid black; padding: 10px;">Institute</th>
+	<th style="border: 1px solid black; padding: 10px;">Course Name and Syllabus</th>
+	<th style="border: 1px solid black; padding: 10px;">Main responsibilities</th>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2023</td>
+    <td style="border: 1px solid black; padding: 10px;">KTH</td>
+	<td style="border: 1px solid black; padding: 10px;">Ei 1110, Electrical Circuit Analysis</td>
+	<td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2022</td>
+    <td style="border: 1px solid black; padding: 10px;">KTH</td>
+	<td style="border: 1px solid black; padding: 10px;">Ei 1110, Electrical Circuit Analysis</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2019</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;">Basics of Electrical and Electronics Engineering</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2018</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;">EE234 Electrical Machines Lab</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2017</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;">EE747 Simulation of Power System Transients</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2017</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;"> EE780 Terahertz Technology and Applications</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2016</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;">Electrical Machines Lab</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2016</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;">EE101 Basics of Electrical Engineering</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	<tr>
+    <td style="border: 1px solid black; padding: 10px;">2015</td>
+    <td style="border: 1px solid black; padding: 10px;">IIT Bombay</td>
+	<td style="border: 1px solid black; padding: 10px;">EE101 Basics of Electrical Engineering</td>
+    <td style="border: 1px solid black; padding: 10px;"></td>
+	</tr>
+	</table>
+    </div>
+
+    <div id="NewsEvents" class="tabcontent">
+      <!-- Add content for the "News & Events" tab here -->
+    </div>
+
+    <div id="Contact" class="tabcontent">
+      <!-- Add content for the "Contact" tab here -->
+    </div>
+
+    <div id="BeyondProfession" class="tabcontent">
+      <!-- Add content for the "Beyond Profession" tab here -->
+    </div>
+
+    <script>
+	function openTab(evt, tabName) {
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+			tabcontent[i].style.display = "none";
+		}
+		tablinks = document.getElementsByClassName("tablinks");
+		for (i = 0; i < tablinks.length; i++) {
+			tablinks[i].className = tablinks[i].className.replace(" active", "");
+		}
+		document.getElementById(tabName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+	</script>
